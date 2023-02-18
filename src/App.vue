@@ -2,10 +2,10 @@
   <div class="container-fluid">
     <div class="row justify-content-end">
       <div class="col-2">
-        phone: 555-555-555
+        Phone: 555-555-555
       </div>
       <div class="col-2">
-        email: email@mail.com
+        Email: email@mail.com
       </div>
     </div>
     <nav class="row">
