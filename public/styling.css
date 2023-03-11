@@ -5,3 +5,32 @@
 }
 
 /* begin classes*/
+@media screen and (min-width:1570px) {
+
+    .nav-logo {
+        width: 5%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1570px) {
+
+    .nav-logo {
+        width: 7%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .nav-logo {
+        width: 10%;
+        height: 60%;
+    }
+
+}
+
+.blue-page {
+    background-color: #1d7cbc;
+    color: #FFFFFF
+}

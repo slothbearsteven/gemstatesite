@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row justify-content-end">
+    <div class="row justify-content-end blue-page">
       <div class="col-2">
         Phone: 555-555-555
       </div>
@@ -8,13 +8,16 @@
         Email: email@mail.com
       </div>
     </div>
-    <nav class="row">
-      <img src="../src/assets/GemOnly.png" alt="Gem State Tracks Logo" class="col-3 float-start">
-      <div class="col-4"></div>
-      <router-link class="col-1" to="/">Home</router-link> |
-      <router-link class="col-1" to="/about">About</router-link> |
-      <router-link class="col-1" to="/contactUs">Contact Us</router-link> |
-      <router-link class="col-1" to="/services">Our Services</router-link>
+    <nav class="row justify-content-around">
+      <div class="col-7 text-start">
+        <img src="../src/assets/GemOnly.png" alt="Gem State Tracks Logo" class="float-start nav-logo">
+        <h1 class="nav-text"> Gem State Tracks</h1>
+
+      </div>
+      <router-link class="col-1 fs-4" to="/">Home</router-link>
+      <router-link class="col-1 fs-4" to="/about">About</router-link>
+      <router-link class="col-1 fs-4" to="/services">Services</router-link>
+      <router-link class="col-1 fs-4" to="/contactUs">Contact Us</router-link>
     </nav>
     <router-view />
   </div>
@@ -25,7 +28,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
 }
 
 nav {
@@ -34,10 +37,10 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #000000;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #1d7cbc;
 }
 </style>
