@@ -24,10 +24,19 @@
     </nav>
     <router-view />
     <br>
-    <div class="row footer">
+    <div class="row footer justify-content-around">
       <br>
       <p>FOOTER AREA</p>
       <br>
+      <div class="col-3">
+        social media 1
+      </div>
+      <div class="col-3">
+        social media 2
+      </div>
+      <div class="col-3">
+        social media 3
+      </div>
     </div>
   </div>
 </template>
