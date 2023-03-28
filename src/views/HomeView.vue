@@ -6,7 +6,7 @@
     <br>
     <div class="row">
       <div class="col-12 col-md-8 pageHeader">
-        <p class="text-center textBorders pageHeader fs-3">
+        <p class="text-center textBorders pageHeader fs-2">
           <br> home page header 1 <br>
 
         </p>
@@ -25,7 +25,7 @@
     <br>
     <div class="row">
       <div class="col-12 col-md-8 pageHeader">
-        <p class="text-center textBorders pageHeader fs-3">
+        <p class="text-center textBorders pageHeader fs-2">
           <br> home page header 2<br>
 
         </p>

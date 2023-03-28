@@ -23,6 +23,12 @@
       <router-link class="col-5 col-md-1 fs-4" to="/contactUs">Contact Us</router-link>
     </nav>
     <router-view />
+    <br>
+    <div class="row footer">
+      <br>
+      <p>FOOTER AREA</p>
+      <br>
+    </div>
   </div>
 </template>
 
