@@ -8,6 +8,8 @@
         Email: email@mail.com
       </div>
     </div>
+
+    <!-- Look into Nav bar using bootstrap classes -->
     <nav class="row justify-content-around nav-background">
       <div class="col-12 col-md-5 text-md-start">
         <img src="../src/assets/GemOnly.png" alt="Gem State Tracks Logo" class="float-md-start nav-logo">
