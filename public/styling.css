@@ -75,3 +75,8 @@
     color: #FFFFFF;
     background-color: black;
 }
+
+.carousel-inner>.carousel-item>img {
+    height: 360px;
+    width: 640px;
+}
