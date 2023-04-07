@@ -77,6 +77,6 @@
 }
 
 .carousel-inner>.carousel-item>img {
-    height: 360px;
-    width: 640px;
+    height: 400px;
+    width: 90%;
 }
