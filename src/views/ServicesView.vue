@@ -1,6 +1,9 @@
 <template>
     <div class='services'>
+        <br>
+
         <div class="row">
+
             <div class="col">
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">

@@ -11,6 +11,17 @@
         width: 7%;
         height: 95%;
     }
+
+    .carousel-inner>.carousel-item>img {
+        height: 500px;
+        width: 90%;
+    }
+
+    #carouselExample {
+        background-color: #000000;
+        border-bottom: 10px solid #000000;
+        border-top: 10px solid #000000;
+    }
 }
 
 @media screen and (min-width:800px) and (max-width:1570px) {
@@ -18,6 +29,17 @@
     .nav-logo {
         width: 7%;
         height: 75%;
+    }
+
+    .carousel-inner>.carousel-item>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #carouselExample {
+        background-color: #000000;
+        border-bottom: 10px solid #000000;
+        border-top: 10px solid #000000;
     }
 }
 
@@ -29,6 +51,15 @@
 
     }
 
+    .carousel-inner>.carousel-item>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #carouselExample {
+        background-color: #000000;
+        border: 10px solid #000000;
+    }
 }
 
 .blue-page {
@@ -74,9 +105,4 @@
 .footer {
     color: #FFFFFF;
     background-color: black;
-}
-
-.carousel-inner>.carousel-item>img {
-    height: 400px;
-    width: 90%;
 }
