@@ -20,7 +20,7 @@
         </p>
       </div>
 
-      <img class="col-12 col-md-4 pictureBorders" src="../assets/TroyExchange.png" alt="">
+      <img class="col-12 col-md-4 pictureBorders" src="../assets/LowryRepaint.png" alt="">
     </div>
     <br>
     <div class="row">
@@ -39,7 +39,7 @@
         </p>
       </div>
 
-      <img class="col-12 col-md-4 pictureBorders" src="../assets/TroyExchange.png" alt="">
+      <img class="col-12 col-md-4 pictureBorders" src="../assets/UnionMineOverhead.png" alt="">
     </div>
 
   </div>

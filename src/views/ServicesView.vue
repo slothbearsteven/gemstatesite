@@ -4,17 +4,17 @@
 
         <div class="row">
 
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="../assets/TroyExchange.png" class="" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/GemOnly.png" class="" alt="...">
+                            <img src="../assets/Troy.png" class="" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/trackHeaderImage.png" class="" alt="...">
+                            <img src="../assets/TroyOverhead.png" class="" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -28,6 +28,10 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+
+                <h2 class="textBorders"> What We Do For You</h2>
             </div>
         </div>
     </div>
