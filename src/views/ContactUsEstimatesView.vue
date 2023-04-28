@@ -1,6 +1,15 @@
 <template>
     <div class='contactUs'>
         this is the contact page
+        <br>
+        bla bla something contact
+        <br> For more information contact us at the following:
+
+        <div class="row">
+            <div class="col">
+                Insert contact information in - format. include hours available for call/office if such option is available
+            </div>
+        </div>
     </div>
 </template>
 

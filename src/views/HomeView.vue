@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center blackBackground">
       <img class="col-12 trackHeader" alt="Track Header Image" src="../assets/trackHeaderImage.png">
     </div>
     <br>

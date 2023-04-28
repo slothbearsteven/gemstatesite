@@ -1,5 +1,11 @@
 <template>
   <div class="about">
+    <div class="row justify-content-center">
+
+      <img class="col-10" src="../assets/LowryRepaint.png" alt="" style="height: 500PX
+      ;">
+
+    </div>
     <h1>This is an about page</h1>
 
     <!-- Add information about the company, the who of it. Add pictures of workers directly. 

@@ -22,6 +22,10 @@
         border-bottom: 10px solid #000000;
         border-top: 10px solid #000000;
     }
+
+    .bod {
+        padding-top: 4.5%;
+    }
 }
 
 @media screen and (min-width:800px) and (max-width:1570px) {
@@ -41,6 +45,10 @@
         border-bottom: 10px solid #000000;
         border-top: 10px solid #000000;
     }
+
+    .bod {
+        padding-top: 9%;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -59,6 +67,10 @@
     #carouselExample {
         background-color: #000000;
         border: 10px solid #000000;
+    }
+
+    .bod {
+        padding-top: 58%;
     }
 }
 
@@ -105,4 +117,8 @@
 .footer {
     color: #FFFFFF;
     background-color: black;
+}
+
+#Navbar {
+    position: fixed;
 }
