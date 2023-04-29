@@ -26,16 +26,17 @@
     <div class="row">
       <div class="col-12 col-md-8 pageHeader">
         <p class="text-center textBorders pageHeader fs-2">
-          <br> Why Choose Us?<br>
+          <br> A little about us<br>
 
         </p>
         <p class="text-start fs-5 pageBody">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Dis parturient montes nascetur ridiculus mus mauris. Nunc scelerisque viverra mauris in aliquam
-          sem. Sem viverra aliquet eget sit amet tellus. Mi sit amet mauris commodo quis imperdiet massa tincidunt. Mi
-          in nulla posuere sollicitudin aliquam. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
-          fermentum. Elit eget gravida cum sociis natoque penatibus et magnis dis. Nunc sed velit dignissim sodales ut
-          eu. Faucibus nisl tincidunt eget nullam non. Faucibus ornare suspendisse sed nisi.
+          We are a small, extremely mobile company based in Boise, Idaho. We most commonly work in California, Washington,
+          Nevada, and, of course, Idaho. Other frequent locations we visit include Montana and Utah.
+          <br>
+          <br>
+          Our team, although small, consists of those who have over a decade of experience in track painting and
+          construction and take pride in their work. No matter how big a job might be, we are willing to tackle it and
+          bring promisiing results!
         </p>
       </div>
 
