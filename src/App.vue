@@ -3,12 +3,16 @@
     <div id="Navbar">
 
 
-      <div class="row justify-content-end blue-page">
-        <div class="col-6 col-md-3">
-          Phone: 555-555-555
+      <div class="row justify-content-around justify-content-md-end blue-page">
+        <div class="col-5 col-md-2">
+          Phone:
+          <br>
+          208-789-4544
         </div>
-        <div class="col-6 col-md-3">
-          Email: email@mail.com
+        <div class="col-7 col-md-2">
+          Email:
+          <br>
+          info@gemstatetracks.com
         </div>
       </div>
 
@@ -28,19 +32,14 @@
     </div>
     <router-view class="bod" />
     <br>
-    <div class="row footer justify-content-around">
+    <div class="row footer justify-content-center">
       <br>
-      <p>FOOTER AREA</p>
       <br>
+
       <div class="col-3">
-        social media 1
+
       </div>
-      <div class="col-3">
-        social media 2
-      </div>
-      <div class="col-3">
-        social media 3
-      </div>
+
     </div>
   </div>
 </template>

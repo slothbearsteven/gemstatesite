@@ -2,12 +2,34 @@
     <div class='contactUs'>
         <div class="row">
             <div class="col">
-                this is the contact page
+                <p class="fs-2">
+                    Curious About an Estimate?
+                    <br> Have Questions?
+                    <br>
+
+                </p>
                 <br>
-                bla bla something contact
-                <br> For more information contact us at the following:
-                Insert contact information in - format. include hours available for call/office if such option is available
+                <h2>
+                    Reach out to Us!
+                </h2>
             </div>
+        </div>
+        <br>
+        <br>
+        <div class="row justify-content-around ">
+            <img class="col-2" src="../assets/GemOnly.png" alt="">
+            <div class="col-8 col-md-3 fs-4 ">
+                <br>
+
+                Contact Information:
+                <br>
+                <br>
+                Phone: 208-789-4544
+                <br>
+                <br>
+                Email: info@gemstatetracks.com
+            </div>
+            <img class="col-2" src="../assets/GemOnly.png" alt="">
         </div>
     </div>
 </template>
