@@ -18,9 +18,9 @@
     }
 
     #carouselExample {
-        background-color: #000000;
-        border-bottom: 10px solid #000000;
-        border-top: 10px solid #000000;
+        background-color: #1d7cbc;
+        border-bottom: 10px solid #1d7cbc;
+        border-top: 10px solid #1d7cbc;
     }
 
     .bod {
@@ -41,9 +41,9 @@
     }
 
     #carouselExample {
-        background-color: #000000;
-        border-bottom: 10px solid #000000;
-        border-top: 10px solid #000000;
+        background-color: #1d7cbc;
+        border: 10px solid #1d7cbc;
+
     }
 
     .bod {
@@ -65,8 +65,8 @@
     }
 
     #carouselExample {
-        background-color: #000000;
-        border: 10px solid #000000;
+        background-color: #1d7cbc;
+        border: 10px solid #1d7cbc;
     }
 
     .bod {
@@ -121,4 +121,5 @@
 
 #Navbar {
     position: fixed;
+    z-index: 1;
 }
