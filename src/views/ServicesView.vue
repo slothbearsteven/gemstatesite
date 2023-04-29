@@ -35,7 +35,8 @@
                 <p class="fs-3 text-start pageBody">
                     We offer an array of different services all surrounding the idea of making your track a true gem. To
                     accomplish such, our experienced team uses quality paints and tools to ensure that each and every detail
-                    in the track is up to par. Whether your track just needs some simple touch ups or a brand new layout, we
+                    in the track is up to par with state and federation standards. Whether your track just needs some simple
+                    touch ups or a brand new layout, we
                     will be able to get your track on-track to being the best it has ever been.
                     <br>
                     <br>
@@ -46,47 +47,46 @@
         </div>
         <br>
         <div class="row justify-content-center">
-            <div class="col-12 col-md-7 text-start fs-4 pageHeader">
-                <h2 class="text-center textBorders ">
-                    “Scratch” Paint Job:
-                </h2>
-                <p class="pageBody">
-                    This is our “Bread and Butter” service. We
-                </p>
-            </div>
-            <img class="col-12 col-md-5 pictureBorders" src="../assets/PasadenaOverhead.png" alt="">
-        </div>
-        <br>
-        <div class="row justify-content-around">
-            <div class="col-12 col-md-7 text-start fs-4 pageHeader">
-                <h2 class="text-center textBorders">
-                    Simple Re-paint:
-                </h2>
-                <p class="pageBody">
+            <div class="col-12 text-start fs-4 pageHeader">
 
-                    We will paint a fresh coat over your existing lines and event markings. This includes any
-                    Lettering and/or Logos already painted on the surface. Addition of Lettering or Logos will include an
-                    additional charge.
-                </p>
-            </div>
-            <img class="col-12 col-md-5 pictureBorders" src="../assets/YucaipaOverheadAfter.png" alt="">
-        </div>
-        <br>
-        <div class="row justify-content-around">
-            <!-- <div class="col-12 col-md-7 text-start fs-4 pageHeader">
-                New layout and Re-paint with some possible simple cover-up of old or incorrect markings.
-            </div> -->
-            <div class="col-12 col-md-7 text-start fs-4 pageHeader">
-                <h2 class="text-center textBorders">
-                    New layout and Re-paint:
-                </h2>
-                <p class="pageBody">
 
-                    need more description here
-                </p>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center textBorders ">
+                            “Scratch” Paint Job:
+                        </h2>
+                        <p class="pageBody">
+                            This is our “Bread and Butter” service. We
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <h2 class="text-center textBorders">
+                            Simple Re-paint:
+                        </h2>
+                        <p class="pageBody">
+
+                            We will paint a fresh coat over your existing lines and event markings. This includes any
+                            Lettering and/or Logos already painted on the surface. Addition of Lettering or Logos will
+                            include an
+                            additional charge.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <h2 class="text-center textBorders">
+                            New layout and Re-paint:
+                        </h2>
+                        <p class="pageBody">
+
+                            need more description here
+                        </p>
+                    </div>
+                </div>
+
             </div>
-            <img class="col-12 col-md-5 pictureBorders" src="../assets/RedmondOverhead.png" alt="">
         </div>
+
     </div>
 </template>
 

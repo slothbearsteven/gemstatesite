@@ -4,7 +4,7 @@
       <img class="col-12 trackHeader" alt="Track Header Image" src="../assets/trackHeaderImage.png">
     </div>
     <br>
-    <div class="row">
+    <div class="row ">
       <div class="col-12 col-md-8 pageHeader">
         <p class="text-center textBorders pageHeader fs-2">
           <br>Welcome to Gem State Tracks! <br>

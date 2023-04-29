@@ -21,8 +21,6 @@
         </div>
         <router-link class="col-5 col-md-1 fs-4" to="/">Home</router-link>
 
-        <router-link class="col-5 col-md-1 fs-4" to="/about">About</router-link>
-
         <router-link class="col-5 col-md-1 fs-4" to="/services">Services</router-link>
 
         <router-link class="col-5 col-md-1 fs-4" to="/contactUs">Contact Us</router-link>
