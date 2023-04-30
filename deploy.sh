@@ -15,5 +15,6 @@ echo 'www.gemstatetracks.com' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
+git push -f git@github.com:slothbearsteven/gemstatesite.git master:gh-pages
 
 cd -
