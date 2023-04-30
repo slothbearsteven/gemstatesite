@@ -38,16 +38,19 @@
                     in the track is up to par with state and federation standards. Whether your track just needs some simple
                     touch ups or a brand new layout, we
                     will be able to get your track on-track to being the best it has ever been.
+                    We are a small, extremely mobile company with over a decade of experience in track painting and
+                    construction.
                     <br>
-                    <br>
-                    To find out more about each of our services, check the details below!
+                    <br> We commonly evaluate and provide bespoke services that may not be listed below. If your
+                    desired service is not featured below, please feel free to reach out, as we may be able to accommodate
+                    your request anyway!
                 </p>
 
             </div>
         </div>
         <br>
         <div class="row justify-content-center">
-            <div class="col-12 text-start fs-4 pageHeader">
+            <div class="col-12 text-center fs-4 pageHeader">
 
 
                 <div class="row">
@@ -56,30 +59,42 @@
                             “Scratch” Paint Job:
                         </h2>
                         <p class="pageBody">
-                            This is our “Bread and Butter” service. We
+                            This is our “Bread and Butter” service. This is for new tracks immediately after they are built.
+                            This includes setting control points and getting custom calculations for where each mark will be
+                            placed on your track. You have more control about how you want specific things, like finish line
+                            placement, color schemes, etc. Scratch paints can also be certified for accuracy if desired.
                         </p>
                     </div>
                     <br>
                     <div class="col-12">
                         <h2 class="text-center textBorders">
-                            Simple Re-paint:
+                            Re-paint:
                         </h2>
                         <p class="pageBody">
 
                             We will paint a fresh coat over your existing lines and event markings. This includes any
-                            Lettering and/or Logos already painted on the surface. Addition of Lettering or Logos will
-                            include an
-                            additional charge.
+                            Lettering and/or Logos already painted on the surface. Addition of Lettering, Logos, or new
+                            races will include an additional charge.
                         </p>
                     </div>
                     <br>
                     <div class="col-12">
                         <h2 class="text-center textBorders">
-                            New layout and Re-paint:
+                            Pressure Wash and Re-paint:
                         </h2>
                         <p class="pageBody">
-
-                            need more description here
+                            For this service we will Clean your entire track surface with a pressure washer and then
+                            complete a Re-paint. Doing this not only freshens your old faded paint, but clears the track of
+                            dirt stains so the surface looks just as fresh and nice.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <h2 class="text-center textBorders">
+                            Repairs:
+                        </h2>
+                        <p class="pageBody">
+                            We can do small repairs that would include, cutting, cleaning, and replacing rubber material.
                         </p>
                     </div>
                 </div>
