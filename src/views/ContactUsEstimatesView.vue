@@ -17,7 +17,7 @@
         <br>
         <br>
         <div class="row justify-content-around ">
-            <img class="col-2" src="../assets/GemOnly.png" alt="">
+            <img class="col-2 gemOnContacts" src="../assets/GemOnly.png" alt="">
             <div class="col-8 col-md-3 fs-4 ">
                 <br>
 
@@ -29,7 +29,7 @@
                 <br>
                 Email: info@gemstatetracks.com
             </div>
-            <img class="col-2" src="../assets/GemOnly.png" alt="">
+            <img class="col-2 gemOnContacts" src="../assets/GemOnly.png" alt="">
         </div>
     </div>
 </template>
