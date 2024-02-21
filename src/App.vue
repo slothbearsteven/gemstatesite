@@ -12,7 +12,7 @@
         <div class="col-7 col-md-2">
           Email:
           <br>
-          info@gemstatetracks.com
+          neil@gemstatetracks.com
         </div>
       </div>
 
