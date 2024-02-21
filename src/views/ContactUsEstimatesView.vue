@@ -27,7 +27,7 @@
                 Phone: 208-789-4544
                 <br>
                 <br>
-                Email: info@gemstatetracks.com
+                Email: neil@gemstatetracks.com
             </div>
             <img class="col-2 gemOnContacts" src="../assets/GemOnly.png" alt="">
         </div>
