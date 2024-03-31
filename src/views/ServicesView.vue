@@ -31,7 +31,7 @@
             </div>
             <div class="col-12 col-md-6 text-center pageHeader">
 
-                <h2 class="textBorders"> What We Do For You TEST TEST</h2>
+                <h2 class="textBorders"> What We Do For You</h2>
                 <p class="fs-3 text-start pageBody">
                     We offer an array of different services all surrounding the idea of making your track a true gem. To
                     accomplish such, our experienced team uses quality paints and tools to ensure that each and every

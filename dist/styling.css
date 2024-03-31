@@ -115,7 +115,7 @@
 }
 
 .footer {
-    color: #FFFFFF;
+    color: #000000;
     background-color: black;
 }
 
@@ -126,4 +126,9 @@
 
 .contactUs {
     padding-bottom: 13%;
+}
+
+.gemOnContacts {
+    width: 16%;
+    height: 75%;
 }
