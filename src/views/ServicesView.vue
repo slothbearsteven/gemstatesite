@@ -31,18 +31,21 @@
             </div>
             <div class="col-12 col-md-6 text-center pageHeader">
 
-                <h2 class="textBorders"> What We Do For You</h2>
+                <h2 class="textBorders"> What We Do For You TEST TEST</h2>
                 <p class="fs-3 text-start pageBody">
                     We offer an array of different services all surrounding the idea of making your track a true gem. To
-                    accomplish such, our experienced team uses quality paints and tools to ensure that each and every detail
-                    in the track is up to par with state and federation standards. Whether your track just needs some simple
+                    accomplish such, our experienced team uses quality paints and tools to ensure that each and every
+                    detail
+                    in the track is up to par with state and federation standards. Whether your track just needs some
+                    simple
                     touch ups or a brand new layout, we
                     will be able to get your track on-track to being the best it has ever been.
                     We are a small, extremely mobile company with over a decade of experience in track painting and
                     construction.
                     <br>
                     <br> We commonly evaluate and provide bespoke services that may not be listed below. If your
-                    desired service is not featured below, please feel free to reach out, as we may be able to accommodate
+                    desired service is not featured below, please feel free to reach out, as we may be able to
+                    accommodate
                     your request anyway!
                 </p>
 
@@ -59,9 +62,12 @@
                             “Scratch” Paint Job:
                         </h2>
                         <p class="pageBody">
-                            This is our “Bread and Butter” service. This is for new tracks immediately after they are built.
-                            This includes setting control points and getting custom calculations for where each mark will be
-                            placed on your track. You have more control about how you want specific things, like finish line
+                            This is our “Bread and Butter” service. This is for new tracks immediately after they are
+                            built.
+                            This includes setting control points and getting custom calculations for where each mark
+                            will be
+                            placed on your track. You have more control about how you want specific things, like finish
+                            line
                             placement, color schemes, etc. Scratch paints can also be certified for accuracy if desired.
                         </p>
                     </div>
@@ -84,7 +90,8 @@
                         </h2>
                         <p class="pageBody">
                             For this service we will Clean your entire track surface with a pressure washer and then
-                            complete a Re-paint. Doing this not only freshens your old faded paint, but clears the track of
+                            complete a Re-paint. Doing this not only freshens your old faded paint, but clears the track
+                            of
                             dirt stains so the surface looks just as fresh and nice.
                         </p>
                     </div>
@@ -94,7 +101,8 @@
                             Repairs:
                         </h2>
                         <p class="pageBody">
-                            We can do small repairs that would include, cutting, cleaning, and replacing rubber material.
+                            We can do small repairs that would include, cutting, cleaning, and replacing rubber
+                            material.
                         </p>
                     </div>
                 </div>
