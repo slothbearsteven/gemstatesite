@@ -1,11 +1,11 @@
-/* for whole site */
+/* for whole site /*
 * {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
 }
 
 /* begin classes*/
-@media screen and (min-width:1570px) {
+/* @media screen and (min-width:1570px) {
 
     .nav-logo {
         width: 7%;
@@ -72,9 +72,9 @@
     .bod {
         padding-top: 65%;
     }
-}
+} */
 
-.blue-page {
+/* .blue-page {
     background-color: #1d7cbc;
     color: #FFFFFF
 }
@@ -131,4 +131,226 @@
 .gemOnContacts {
     width: 16%;
     height: 75%;
+}  */
+
+/*#region Bryce's changes */
+.homeFont {
+	font-size: 1.5em;
 }
+
+.sectionBGDark {
+	background-color: #2b2b2b;
+	color: white;
+}
+
+.sectionImg {
+	margin: 0.5rem;
+	max-width: 40vw;
+}
+
+.homeMainImg {
+	max-width: 55vw;
+	box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
+}
+
+.sectionWrapper {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.homeH1 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+    font-size: 2.5em;
+}
+.nav-router {
+	color: black;
+    font-size: 1.5em;
+}
+
+.main-container {
+	overflow-x: hidden;
+	background-color: black;
+}
+
+.marginTop5Em {
+	margin-top: 5em;
+}
+.marginBottom5Em {
+	margin-bottom: 5em;
+}
+
+.mainFooterDiv {
+	background-color: #bcbcbc;
+	font-size: large;
+}
+
+#mainNav {
+	
+}
+
+#mainNavDiv {
+    background-image: url("./trackHeaderImage-medium-banner.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#mainHeaderDiv {
+	background-image: url("./trackHeaderImage-medium-banner.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	overflow: auto;
+	display: block;
+}
+
+.nav-router {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+#logoText {
+	/* margin-left: 1.5em; */
+	align-self: flex-end;
+	margin-bottom: 0;
+	font-size: 4em;
+	padding-left: 0.25em;
+}
+
+#logoDiv {
+	display: flex;
+	justify-items: start;
+	vertical-align: bottom;
+	padding: 1em;
+	padding-top: 1em;
+}
+
+#logoGem {
+	width: 4em;
+	height: 4em;
+	align-self: center;
+	margin-left: 1.5em;
+}
+
+.bod {
+	border-radius: 1.5em 0px 0px 0px;
+	background-color: #dedede;
+    padding-top: 8em;
+}
+#homeDiv {
+}
+
+@media screen and (max-width: 1000px) {
+	#logoText {
+		/* margin-left: 1.5em; */
+		align-self: flex-end;
+		margin-bottom: 0;
+		font-size: 1.85em;
+		padding: 0.5em;
+	}
+
+	#logoGem {
+		width: 3em;
+		height: 3em;
+		align-self: center;
+		margin-left: 0.5em;
+	}
+	#mainHeaderDiv {
+		background-image: url("./trackHeaderImage-mobile-banner.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		overflow: auto;
+		display: block;
+	}
+	.sectionImg {
+		margin: 0.5rem;
+		max-width: 80vw;
+	}
+
+	.homeMainImg {
+		max-width: 80vw;
+		box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
+	}
+	.bod {
+		border-radius: 0;
+	}
+	.nav-router {
+		padding: 0.35em;
+        font-size: 1.25em;
+	}
+	#navListDiv {
+	}
+    .homeFont, .homeH1 {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 680px) {
+	#logoText {
+		/* margin-left: 1.5em; */
+		align-self: flex-end;
+		margin-bottom: 0;
+		font-size: 1.65em;
+		padding: 0.5em;
+	}
+
+	#logoGem {
+		width: 2.5em;
+		height: 2.5em;
+		align-self: center;
+		margin-left: 0.5em;
+	}
+	#mainHeaderDiv {
+		background-image: url("./trackHeaderImage-mobile-banner.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		overflow: auto;
+		display: block;
+	}
+	.sectionImg {
+		margin: 0.5rem;
+		max-width: 80vw;
+	}
+
+	.homeMainImg {
+		max-width: 80vw;
+		box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
+	}
+	.bod {
+		border-radius: 0;
+	}
+	.nav-router {
+		padding: 0.35em;
+        font-size: 1em;
+	}
+	#navListDiv {
+	}
+    .homeFont, .homeH1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 680px) { 
+    #logoText {
+		/* margin-left: 1.5em; */
+		align-self: flex-end;
+		margin-bottom: 0;
+		font-size: 1.45em;
+		padding: 0.5em;
+	}
+
+	#logoGem {
+		width: 2em;
+		height: 2em;
+		align-self: center;
+		margin-left: 0.5em;
+	}
+}
+/*#endregion*/

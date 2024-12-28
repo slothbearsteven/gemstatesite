@@ -1,8 +1,11 @@
 /* for whole site */
-* {
+/* * {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400&display=swap');
 
 /* begin classes*/
 @media screen and (min-width:1570px) {

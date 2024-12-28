@@ -1,8 +1,40 @@
 <template>
-  <div class="container-fluid">
-    <div id="Navbar">
+  <div class="main-container">
+    <div id="mainHeaderDiv">
 
+      <div id="mainNavDiv" class="fixed-top pt-2">
+        <nav id="mainNav" class="navbar navbar-expand-sm navbar-toggleable-sm">
+          <div id="logoDiv" class="">
+            <h1 id="logoText" class="text-white">Gem State Tracks</h1>
+            <img id="logoGem" src="./assets/resized/GemOnly.png" />
+          </div>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" style="margin-right: 1em; margin-left: auto;">
+            <span class="navbar-toggler-icon navbar-light"></span>
+          </button>
+          <div id="navListDiv" class="navbar-collapse collapse d-sm-inline-flex justify-content-around align-items-end">
+            <ul id="navList" class="navbar-nav flex-grow-1 justify-content-around align-items-end">
+              <li class="nav-item align-items-end">
+                <router-link class="nav-router" to="/">Home</router-link>
+              </li>
+              <li class="nav-item align-items-end">
+                <router-link class="nav-router" to="/services">Services</router-link>
+              </li>
+              <li class="nav-item align-items-end">
+                <router-link class="nav-router" to="/contactUs">Contact Us</router-link>
+              </li>
 
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <router-view class="bod" />
+    <br>
+    <div class="row footer justify-content-center mainFooterDiv">
+      <br>
+      <br>
       <div class="row justify-content-around justify-content-md-end blue-page">
         <div class="col-5 col-md-2">
           Phone:
@@ -15,27 +47,6 @@
           neil@gemstatetracks.com
         </div>
       </div>
-
-      <!-- Look into Nav bar using bootstrap classes -->
-      <nav class="row justify-content-around nav-background">
-        <div class="col-12 col-md-5 text-md-start">
-          <img src="../src/assets/GemOnly.png" alt="Gem State Tracks Logo" class="float-md-start nav-logo">
-          <h1 class="nav-text"> Gem State Tracks</h1>
-
-        </div>
-        <router-link class="col-5 col-md-1 fs-4" to="/">Home</router-link>
-
-        <router-link class="col-5 col-md-1 fs-4" to="/services">Services</router-link>
-
-        <router-link class="col-5 col-md-1 fs-4" to="/contactUs">Contact Us</router-link>
-      </nav>
-    </div>
-    <router-view class="bod" />
-    <br>
-    <div class="row footer justify-content-center">
-      <br>
-      <br>
-
       <div class="col-3">
 
       </div>
