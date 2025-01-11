@@ -134,8 +134,8 @@
 }  */
 
 /*#region Bryce's changes */
-.homeFont {
-	font-size: 1.5em;
+.mainParagraphFontSize {
+	font-size: 1.5rem;
 }
 
 .sectionBGDark {
@@ -145,26 +145,28 @@
 
 .sectionImg {
 	margin: 0.5rem;
-	max-width: 40vw;
+	max-width: 100%;
 }
 
-.homeMainImg {
+.pageMainImg {
 	max-width: 55vw;
-	box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 3rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .sectionWrapper {
-	margin-left: 2em;
-	margin-right: 2em;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
 }
-.homeH1 {
-	padding-top: 2em;
-	padding-bottom: 2em;
-    font-size: 2.5em;
+.pageH1 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+    font-size: 2.5rem;
 }
 .nav-router {
 	color: black;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .main-container {
@@ -172,11 +174,11 @@
 	background-color: black;
 }
 
-.marginTop5Em {
-	margin-top: 5em;
+.paragraphMarginTop {
+	margin-top: 5rem;
 }
-.marginBottom5Em {
-	margin-bottom: 5em;
+.paragraphMarginBottom {
+	margin-bottom: 5rem;
 }
 
 .mainFooterDiv {
@@ -185,7 +187,7 @@
 }
 
 #mainNav {
-	
+	align-items: baseline;
 }
 
 #mainNavDiv {
@@ -204,59 +206,76 @@
 	width: 100%;
 	overflow: auto;
 	display: block;
+	box-shadow: 0px 0px 0px 0px black;
 }
 
-.nav-router {
+.nav-router,
+.nav-router:visited {
 	text-decoration: none;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 #logoText {
-	/* margin-left: 1.5em; */
+	/* margin-left: 1.5rem; */
 	align-self: flex-end;
 	margin-bottom: 0;
-	font-size: 4em;
-	padding-left: 0.25em;
+	font-size: 4rem;
+	padding-left: 0.25rem;
 }
 
 #logoDiv {
 	display: flex;
 	justify-items: start;
 	vertical-align: bottom;
-	padding: 1em;
-	padding-top: 1em;
+	padding: 1rem;
+	padding-top: 1rem;
 }
 
 #logoGem {
-	width: 4em;
-	height: 4em;
+	width: 4rem;
+	height: 4rem;
 	align-self: center;
-	margin-left: 1.5em;
+	margin-left: 1.5rem;
 }
 
 .bod {
 	border-radius: 1.5em 0px 0px 0px;
 	background-color: #dedede;
-    padding-top: 8em;
+    padding-top: 8rem;
 }
 #homeDiv {
 }
 
+/*#region Services Page*/
+.carousel-item > img {
+	max-width: 100%;
+}
+/*#endregion*/
+
+@media screen and (max-width: 1280px) {
+	.sectionWrapper {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	#logoText {
-		/* margin-left: 1.5em; */
+		/* margin-left: 1.5rem; */
 		align-self: flex-end;
 		margin-bottom: 0;
-		font-size: 1.85em;
-		padding: 0.5em;
+		font-size: 1.85rem;
+		padding: 0.5rem;
 	}
 
 	#logoGem {
-		width: 3em;
-		height: 3em;
+		width: 3rem;
+		height: 3rem;
 		align-self: center;
-		margin-left: 0.5em;
+		margin-left: 0.5rem;
 	}
 	#mainHeaderDiv {
 		background-image: url("./trackHeaderImage-mobile-banner.png");
@@ -267,43 +286,43 @@
 		overflow: auto;
 		display: block;
 	}
-	.sectionImg {
-		margin: 0.5rem;
-		max-width: 80vw;
-	}
 
-	.homeMainImg {
+
+	.pageMainImg {
 		max-width: 80vw;
-		box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
 	}
 	.bod {
 		border-radius: 0;
 	}
 	.nav-router {
-		padding: 0.35em;
-        font-size: 1.25em;
+		padding: 0.35rem;
+        font-size: 1.25rem;
 	}
 	#navListDiv {
 	}
-    .homeFont, .homeH1 {
-        font-size: 1.25em;
-    }
+	.sectionWrapper {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
+	
 	#logoText {
-		/* margin-left: 1.5em; */
+		/* margin-left: 1.5rem; */
 		align-self: flex-end;
 		margin-bottom: 0;
-		font-size: 1.65em;
-		padding: 0.5em;
+		font-size: 1.65rem;
+		padding: 0.5rem;
 	}
 
 	#logoGem {
-		width: 2.5em;
-		height: 2.5em;
+		width: 2.5rem;
+		height: 2.5rem;
 		align-self: center;
-		margin-left: 0.5em;
+		margin-left: 0.5rem;
 	}
 	#mainHeaderDiv {
 		background-image: url("./trackHeaderImage-mobile-banner.png");
@@ -314,43 +333,71 @@
 		overflow: auto;
 		display: block;
 	}
-	.sectionImg {
-		margin: 0.5rem;
-		max-width: 80vw;
-	}
 
-	.homeMainImg {
+	.pageMainImg {
 		max-width: 80vw;
-		box-shadow: 0px 10px 40px 30px rgba(0, 0, 0, 0.25);
 	}
 	.bod {
 		border-radius: 0;
+		padding-top: 5rem;
 	}
 	.nav-router {
-		padding: 0.35em;
-        font-size: 1em;
+		padding: 0.35rem;
+        font-size: 1rem;
 	}
 	#navListDiv {
 	}
-    .homeFont, .homeH1 {
-        font-size: 1em;
+    .mainParagraphFontSize, .pageH1 {
+        /* font-size: 1rem; */
     }
+	.paragraphMarginTop {
+		margin-top: 3rem;
+	}
+	.paragraphMarginBottom {
+		margin-bottom: 3rem;
+	}
+
+	.sectionImg {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
-@media screen and (max-width: 680px) { 
+@media screen and (max-width: 575px) { 
+	#mainNav {
+		padding-bottom: 0;
+	}
+	#navListDiv > ul {
+		background-color: rgba(0,0,0,.4);
+		/* padding-bottom: .5rem; */
+		padding-top: .5rem;
+	}
+	#navListDiv > ul > li {
+		margin-left: auto;
+		margin-right: 1rem;
+		padding-bottom: .5rem;
+	}
     #logoText {
-		/* margin-left: 1.5em; */
+		/* margin-left: 1.5rem; */
 		align-self: flex-end;
 		margin-bottom: 0;
-		font-size: 1.45em;
-		padding: 0.5em;
+		font-size: 1.45rem;
+		padding: 0.5rem;
 	}
 
 	#logoGem {
-		width: 2em;
-		height: 2em;
+		width: 2rem;
+		height: 2rem;
 		align-self: center;
-		margin-left: 0.5em;
+		margin-left: 0.5rem;
 	}
+
+	.pageH1 {
+		font-size: 2rem;
+	}
+
+	/* .mainParagraphFontSize {
+		font-size: 1.4rem;
+	} */
 }
 /*#endregion*/

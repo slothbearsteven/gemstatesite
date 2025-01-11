@@ -2,8 +2,8 @@
   <div class="main-container">
     <div id="mainHeaderDiv">
 
-      <div id="mainNavDiv" class="fixed-top pt-2">
-        <nav id="mainNav" class="navbar navbar-expand-sm navbar-toggleable-sm">
+      <div id="mainNavDiv" class="fixed-top">
+        <nav id="mainNav" class="navbar navbar-expand-sm navbar-toggleable-sm p-0">
           <div id="logoDiv" class="">
             <h1 id="logoText" class="text-white">Gem State Tracks</h1>
             <img id="logoGem" src="./assets/resized/GemOnly.png" />
@@ -13,15 +13,15 @@
             aria-label="Toggle navigation" style="margin-right: 1em; margin-left: auto;">
             <span class="navbar-toggler-icon navbar-light"></span>
           </button>
-          <div id="navListDiv" class="navbar-collapse collapse d-sm-inline-flex justify-content-around align-items-end">
-            <ul id="navList" class="navbar-nav flex-grow-1 justify-content-around align-items-end">
-              <li class="nav-item align-items-end">
+          <div id="navListDiv" class="navbar-collapse collapse d-sm-inline-flex">
+            <ul id="navList" class="navbar-nav flex-grow-1 justify-content-end">
+              <li class="nav-item me-3">
                 <router-link class="nav-router" to="/">Home</router-link>
               </li>
-              <li class="nav-item align-items-end">
+              <li class="nav-item me-3">
                 <router-link class="nav-router" to="/services">Services</router-link>
               </li>
-              <li class="nav-item align-items-end">
+              <li class="nav-item me-3">
                 <router-link class="nav-router" to="/contactUs">Contact Us</router-link>
               </li>
 

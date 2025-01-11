@@ -1,20 +1,18 @@
 <template>
-    <div class='services'>
-        <br>
-
-        <div class="row">
-
-            <div class="col-12 col-md-6 pageHeader">
-                <div id="carouselExample" class="carousel slide">
+    <div class='services px-5'>
+        <div class="text-center pageHeader">
+            <h1 class="pageH1"> What We Do For You</h1>
+            <div class="d-flex justify-content-center">
+                <div id="carouselExample" class="carousel slide pageMainImg">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../assets/TroyExchange.png" class="" alt="...">
+                            <img src="../assets/resized/TroyExchange-resized.webp" class="" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/Troy.png" class="" alt="...">
+                            <img src="../assets/resized/Troy-resized.webp" class="" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/TroyOverhead.png" class="" alt="...">
+                            <img src="../assets/resized/TroyOverhead-resized.webp" class="" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -29,26 +27,26 @@
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-md-6 text-center pageHeader">
-
-                <h2 class="textBorders"> What We Do For You TEST TEST</h2>
-                <p class="fs-3 text-start pageBody">
-                    We offer an array of different services all surrounding the idea of making your track a true gem. To
-                    accomplish such, our experienced team uses quality paints and tools to ensure that each and every
-                    detail
-                    in the track is up to par with state and federation standards. Whether your track just needs some
-                    simple
-                    touch ups or a brand new layout, we
-                    will be able to get your track on-track to being the best it has ever been.
-                    We are a small, extremely mobile company with over a decade of experience in track painting and
-                    construction.
-                    <br>
-                    <br> We commonly evaluate and provide bespoke services that may not be listed below. If your
-                    desired service is not featured below, please feel free to reach out, as we may be able to
-                    accommodate
-                    your request anyway!
+            <div class="mainParagraphFontSize mt-5">
+                <p class="">
+                    We offer an array of different services all surrounding the idea of making your track a true
+                    gem.
+                    Our experienced team uses quality paints and tools to ensure that each and every detail in the
+                    track is
+                    up to par with state and federation standards.
                 </p>
-
+                <p class="">
+                    Whether your track just needs some simple touch ups or a brand new layout, we will be able to
+                    get your
+                    track on-track to being the best it has ever been. We are a small, extremely mobile company with
+                    over a
+                    decade of experience in track painting and construction.</p>
+                <p class="">
+                    We commonly evaluate and provide bespoke services that may not be listed below. If your desired
+                    service is
+                    not featured below, please feel free to reach out, as we may be able to accommodate your request
+                    anyway!
+                </p>
             </div>
         </div>
         <br>
@@ -109,7 +107,6 @@
 
             </div>
         </div>
-
     </div>
 </template>
 
