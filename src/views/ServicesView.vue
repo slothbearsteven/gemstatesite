@@ -6,13 +6,19 @@
                 <div id="carouselExample" class="carousel slide pageMainImg">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../assets/resized/TroyExchange-resized.webp" class="" alt="...">
+                            <img src="../assets/resized/TroyExchange-resized.webp" class="" alt="Track lines up close">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/resized/Troy-resized.webp" class="" alt="...">
+                            <img src="../assets/resized/Troy-resized.webp" class="" alt="Track lines up closer">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/resized/TroyOverhead-resized.webp" class="" alt="...">
+                            <img src="../assets/resized/TroyOverhead-resized.webp" class="" alt="Overhead view of track">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/resized/PasadenaOverhead-resized.webp" class="" alt="Overhead view of track in Pasadena">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/resized/RedmondOverhead-resized.webp" class="" alt="Overhead view of track in Redmond">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
