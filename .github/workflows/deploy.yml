@@ -19,4 +19,6 @@ jobs:
         - name: Build
           run: npm run build
         - name: Deploy
-          run: chmod +rx deploy.sh && ./deploy.sh
+          run: |
+            git config user.name "slothbearsteven" && git config user.email "kennedy.steven.p@gmail.com" \
+            chmod +rx deploy.sh && ./deploy.sh
