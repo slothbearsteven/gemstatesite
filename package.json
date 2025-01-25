@@ -9,15 +9,17 @@
   },
   "dependencies": {
     "@achrinza/node-ipc": "^10.1.11",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "@vue/component-compiler-utils": "^3.3.0",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2",
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "execa": "^8.0.1"
+    "@vue/cli-plugin-router": "^5.0.0",
+    "@vue/cli-plugin-vuex": "^5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "execa": "9.5.2"
   },
   "browserslist": [
     "> 1%",
