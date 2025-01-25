@@ -1,473 +1,129 @@
-/*#region Main Site Styling*/
-/*Everything in this section is reusable styling that can be applied across all pages*/
-a:hover,
-.nav-router:hover {
-	color: #1d7cbc;
+/* for whole site */
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
 }
 
-.noTextDecorationWhite,
-.noTextDecorationWhite:visited {
-	text-decoration: none;
-	color: white;
+/* begin classes*/
+@media screen and (min-width:1570px) {
+
+    .nav-logo {
+        width: 7%;
+        height: 95%;
+    }
+
+    .carousel-inner>.carousel-item>img {
+        height: 600px;
+        width: 98%;
+    }
+
+    #carouselExample {
+        background-color: #1d7cbc;
+        border-bottom: 10px solid #1d7cbc;
+        border-top: 10px solid #1d7cbc;
+    }
+
+    .bod {
+        padding-top: 6%;
+    }
 }
 
-.noTextDecorationBlack,
-.noTextDecorationBlack:visited {
-	text-decoration: none;
-	color: black;
+@media screen and (min-width:800px) and (max-width:1570px) {
+
+    .nav-logo {
+        width: 7%;
+        height: 75%;
+    }
+
+    .carousel-inner>.carousel-item>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #carouselExample {
+        background-color: #1d7cbc;
+        border: 10px solid #1d7cbc;
+
+    }
+
+    .bod {
+        padding-top: 10%;
+    }
 }
 
-.bod {
-	border-radius: 1.5em 0px 0px 0px;
-	background-color: #ececec;
-	padding-top: 8rem;
+@media screen and (max-width:800px) {
+
+    .nav-logo {
+        width: 20%;
+        height: 60%;
+
+    }
+
+    .carousel-inner>.carousel-item>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #carouselExample {
+        background-color: #1d7cbc;
+        border: 10px solid #1d7cbc;
+    }
+
+    .bod {
+        padding-top: 65%;
+    }
 }
 
-.mainParagraphFontSize {
-	font-size: 1.5rem;
+.blue-page {
+    background-color: #1d7cbc;
+    color: #FFFFFF
 }
 
-.sectionBGDark {
-	background-color: #2b2b2b;
-	color: white;
+.nav-background {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
-.main-container {
-	overflow-x: hidden;
-	background-color: black;
+.trackHeader {
+    background-color: #000000;
+    height: 90%;
 }
 
-.paragraphMarginTop {
-	margin-top: 5rem;
+.textBorders {
+    border-bottom: 10px solid #1d7cbc;
+
 }
 
-.paragraphMarginBottom {
-	margin-bottom: 5rem;
-}
-/*#endregion*/
+.pictureBorders {
+    border: 10px solid #1d7cbc;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 350px;
 
-/*#region Home Page */
-.homeSectionTextPadding {
-	padding-left: 2rem;
-	padding-right: 2rem;
 }
 
-.sectionImg {
-	padding: 0.5rem;
-	max-width: 100%;
+.pageHeader {
+    padding-right: 0%;
+    padding-left: 0%;
+    background-color: white;
 }
 
-.pageMainImg {
-	max-width: 55vw;
-	box-shadow: 0px 0px 3rem 1rem rgba(0, 0, 0, 0.25);
-}
-
-.sectionWrapper {
-	padding-top: 4rem;
-}
-
-.sectionWrapper,
-.sectionWrapperNoTop {
-	padding-bottom: 4rem;
-	padding-left: 8rem;
-	padding-right: 8rem;
-}
-
-.sectionWrapper > div.row {
-	outline: 1px solid white;
-}
-
-.pageH1 {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	font-size: 2.5rem;
-}
-
-#youtubeIFrame {
-	width: 80%;
-	aspect-ratio: 0.64 / 0.36;
-}
-
-/*#endregion*/
-
-/*#region Site Layout (Navbar and Footer) */
-.mainFooterDiv {
-	background-color: #bcbcbc;
-	font-size: large;
-}
-
-#mainNav {
-	align-items: baseline;
-}
-
-#mainNavDiv {
-	background-image: url("./trackHeaderImage-medium-banner.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-color: rgba(0, 0, 0, 0.25);
-}
-
-.nav-router,
-.nav-router:visited {
-	text-decoration: none;
-	color: white;
-	font-size: 1.5rem;
-}
-
-#logoText {
-	align-self: flex-end;
-	margin-bottom: 0;
-	font-size: 4rem;
-	padding-left: 0.25rem;
-}
-
-#logoDiv {
-	display: flex;
-	justify-items: start;
-	vertical-align: bottom;
-	padding: 1rem;
-	padding-top: 1rem;
-}
-
-#footerDiv {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-#footerLogoText {
-	align-self: center;
-	margin-bottom: 0;
-	font-size: 2rem;
-}
-
-#footerLogoGem {
-	aspect-ratio: 1 /1;
-	width: 2rem;
-	align-self: center;
-	margin-left: 1rem;
-}
-
-#footerLogo {
-	display: flex;
-	justify-items: start;
-	vertical-align: bottom;
-	max-width: 50%;
-	margin-left: 0;
-}
-
-.footerContact {
-	max-width: 50%;
-	display: flex;
-	justify-content: flex-end;
-}
-.footerContact > div {
-	width: fit-content;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	align-self: flex-end;
-	color: #565656;
+.pageBody {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
 }
 
 .footer {
-	padding: 1rem;
+    color: #FFFFFF;
+    background-color: black;
 }
 
-#logoDiv > a {
-	display: flex;
-	text-decoration: none;
+#Navbar {
+    position: fixed;
+    z-index: 1;
 }
-
-#logoGem {
-	width: 4rem;
-	height: 4rem;
-	align-self: center;
-	margin-left: 1.5rem;
-}
-/*#endregion*/
-
-/*#region Services Page*/
-#servicesContainer {
-	padding-left: 4rem;
-	padding-right: 4rem;
-}
-
-.carousel-item > img {
-	max-width: 100%;
-}
-
-#serviceH2Div {
-	padding: 1rem;
-	border-top: 3px solid #bcbcbc;
-	border-bottom: 3px solid #bcbcbc;
-}
-
-.serviceColumns {
-	padding: 1rem;
-}
-
-.serviceColumns > p,
-.serviceColumns > ul {
-	margin-left: 1.5rem;
-	margin-right: 1.5rem;
-}
-
-.serviceColumns > h3 {
-	text-decoration: underline;
-	font-weight: bold;
-}
-
-.serviceColumns:nth-of-type(1) {
-	border-right: 3px solid #bcbcbc;
-	border-bottom: 3px solid #bcbcbc;
-}
-
-.serviceColumns:nth-of-type(2) {
-	border-bottom: 3px solid #bcbcbc;
-}
-
-.serviceColumns:nth-of-type(3) {
-	border-right: 3px solid #bcbcbc;
-}
-/*#endregion*/
-
-/*#region Contact Page */
 
 .contactUs {
-	min-height: 100vh;
-	padding-left: 3rem;
-	padding-right: 3rem;
-}
-
-.contactPageInfoDiv {
-	margin-top: 2rem;
-}
-
-/*#endregion*/
-
-@media screen and (max-width: 1280px) {
-	.sectionWrapper {
-		padding-top: 2rem;
-	}
-
-	.sectionWrapper,
-	.sectionWrapperNoTop {
-		padding-bottom: 2rem;
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
-}
-
-@media screen and (max-width: 1000px) {
-	#logoText {
-		align-self: flex-end;
-		margin-bottom: 0;
-		font-size: 1.85rem;
-		padding: 0.5rem;
-	}
-
-	#logoGem {
-		width: 3rem;
-		height: 3rem;
-		align-self: center;
-		margin-left: 0.5rem;
-	}
-
-	#mainHeaderDiv {
-		background-image: url("./trackHeaderImage-mobile-banner.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		width: 100%;
-		overflow: auto;
-		display: block;
-	}
-
-	.pageMainImg {
-		max-width: 80vw;
-	}
-
-	.bod {
-		border-radius: 0;
-	}
-
-	.nav-router {
-		padding: 0.35rem;
-		font-size: 1.25rem;
-	}
-
-	.sectionWrapper {
-		padding-top: 1rem;
-	}
-
-	.sectionWrapper,
-	.sectionWrapperNoTop {
-		padding-bottom: 2rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.serviceColumns:nth-of-type(1) {
-		border-right: none;
-		border-bottom: 3px solid #bcbcbc;
-	}
-
-	.serviceColumns:nth-of-type(2) {
-		border: none;
-		border-bottom: 3px solid #bcbcbc;
-	}
-
-	.serviceColumns:nth-of-type(3) {
-		border: none;
-		border-bottom: 3px solid #bcbcbc;
-	}
-
-	#youtubeIFrame {
-		width: 90%;
-	}
-
-	#logoText {
-		align-self: flex-end;
-		margin-bottom: 0;
-		font-size: 1.65rem;
-		padding: 0.5rem;
-	}
-
-	#logoGem {
-		width: 2.5rem;
-		height: 2.5rem;
-		align-self: center;
-		margin-left: 0.5rem;
-	}
-
-	#mainHeaderDiv {
-		background-image: url("./trackHeaderImage-mobile-banner.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		width: 100%;
-		overflow: auto;
-		display: block;
-	}
-
-	.pageMainImg {
-		max-width: 80vw;
-	}
-
-	.bod {
-		padding-top: 5rem;
-	}
-
-	.nav-router {
-		padding: 0.35rem;
-		font-size: 1rem;
-	}
-
-	.paragraphMarginTop {
-		margin-top: 3rem;
-	}
-
-	.paragraphMarginBottom {
-		margin-bottom: 3rem;
-	}
-
-	.sectionImg {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-	#footerDiv {
-		flex-direction: row;
-	}
-
-	#footerLogoText {
-		font-size: 1.3rem;
-	}
-
-	#footerLogoGem {
-		width: 1.3rem;
-		align-self: center;
-	}
-
-	.footerContact {
-		flex-direction: column;
-		align-self: flex-end;
-	}
-}
-
-@media screen and (max-width: 575px) {
-	#mainNavDiv {
-		background-image: url("./trackHeaderImage-mobile-banner.png");
-	}
-
-	.bod {
-		padding-top: 4rem;
-	}
-
-	#logoDiv {
-		padding: 0.5rem;
-	}
-
-	#mainNav {
-		padding-bottom: 0;
-	}
-
-	#navListDiv > ul {
-		background-color: rgba(0, 0, 0, 0.4);
-		padding-top: 0.5rem;
-	}
-
-	#navListDiv > ul > li {
-		margin-left: auto;
-		margin-right: 1rem;
-		padding-bottom: 0.5rem;
-	}
-
-	#logoText {
-		align-self: flex-end;
-		margin-bottom: 0;
-		font-size: 1.45rem;
-		padding: 0.5rem;
-	}
-
-	#logoGem {
-		width: 2rem;
-		height: 2rem;
-		align-self: center;
-		margin-left: 0.5rem;
-	}
-
-	.pageH1 {
-		font-size: 2rem;
-	}
-
-	#footerDiv {
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	#footerLogo {
-		justify-content: center;
-		max-width: 100%;
-	}
-
-	#footerLogoText {
-		font-size: 1.3rem;
-	}
-
-	#footerLogoGem {
-		width: 1.3rem;
-		align-self: center;
-	}
-
-	.footerContact > div {
-		align-self: center;
-	}
-
-	.footerContact {
-		flex-direction: column;
-		align-self: center;
-	}
+    padding-bottom: 13%;
 }
