@@ -401,7 +401,10 @@ a:hover,
 	#mainNavDiv {
 		background-image: url("./trackHeaderImage-mobile-banner.png");
 	}
-
+	#servicesContainer {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 	.bod {
 		padding-top: 4rem;
 	}
@@ -469,5 +472,6 @@ a:hover,
 	.footerContact {
 		flex-direction: column;
 		align-self: center;
+		max-width: 100%;
 	}
 }
