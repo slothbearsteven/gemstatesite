@@ -18,7 +18,7 @@ The project uses Bootstrap for the main page layout to ensure responsiveness and
 Custom CSS is used for detailed styling beyond what Bootstrap provides. This includes:
 - Background images setup for various sections.
 - Color schemes tailored to enhance visual aesthetics.
-- Responsive designs specifically fine-tuned for multiple screen resolutions.
+- Responsive designs specifically fine-tuned for multiple screen resolutions. 
 
 ### Responsive Design
 Media queries are extensively used to ensure that the website functions well on devices with various screen sizes, from mobile phones to large desktop monitors.
