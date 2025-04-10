@@ -1,12 +1,12 @@
 <template>
    <div id="homeDiv" class="d-flex flex-column">
       <div class="sectionWrapperNoTop">
-         <h1 class="pageH1">Gem State Tracks are the Go-To Specialists</h1>
+         <h1 class="pageH1">Gem State Tracks are the Go-To Specialists!</h1>
          <img class="col-sm-8 pageMainImg" alt="" src="../assets/resized/UnionMineOverhead-resized.webp" />
          <div class="paragraphMarginTop px-3 text-start">
             <span class="mainParagraphFontSize text-wrap"><b>We are a small, extremely mobile company based in Boise, Idaho.</b> 
                We most commonly work in California, Washington, Nevada, and, of course, Idaho. 
-               Other frequent locations we visit include Montana and Utah</span>
+               Other frequent locations we visit include Montana and Utah.</span>
          </div>
          <div class="paragraphMarginTop px-3 text-start">
             <span class="mainParagraphFontSize text-wrap">
@@ -36,13 +36,13 @@
                <img class="sectionImg" alt="" src="../assets/resized/Troy-resized.webp" />
             </div>
             <div class="col-md-6 mt-3 mb-3 homeSectionTextPadding">
-               <span class="mainParagraphFontSize text-wrap"><b>Strong surfaces, straight lines, beautiful curves, 
-                  and accurately measured start lines, lane numbers, hurdle marks, exchange zone marks, and school name or mascot lettering.</b>
+               <span class="mainParagraphFontSize text-wrap">Strong surfaces, straight lines, beautiful curves, 
+                  and accurately measured start lines, lane numbers, hurdle marks, exchange zone marks, and school name or mascot lettering.
                </span>
                <br>
                <span class="mainParagraphFontSize text-wrap">
                   With over a decade of experience working on tracks at middle schools, high schools, colleges, 
-                  universities, and beyond, we are the company to turn to for all your Track and Field needs!
+                  universities, and beyond, we are the company to turn to for all Track and Field needs!
                </span>
             </div>
          </div>
