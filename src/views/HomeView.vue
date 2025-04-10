@@ -6,11 +6,11 @@
          <div class="paragraphMarginTop px-3 text-start">
             <span class="mainParagraphFontSize text-wrap"><b>We are a small, extremely mobile company based in Boise, Idaho.</b> 
                We most commonly work in California, Washington, Nevada, and, of course, Idaho. 
-               Other frequent locations we visit include Montana and Utah.</span>
+               Other frequent locations include Montana and Utah.</span>
          </div>
          <div class="paragraphMarginTop px-3 text-start">
             <span class="mainParagraphFontSize text-wrap">
-               Our team has have over a decade of experience in track painting and construction and take pride in their work. 
+               Our team has over a decade of experience in track painting and construction and take pride in their work. 
                No matter how big a job might be, we are willing to tackle it and bring promising results!
             </span>
          </div>
@@ -50,8 +50,7 @@
 
       <div class="mt-5 pb-5 d-flex flex-column justify-content-center align-items-center">
          <div class="p-3"><span class="mainParagraphFontSize">
-               We are mobile and work fast!<br>The Track in the following video was painted overnight and in another
-               state.
+               We work fast!<br>The Track in the following video was painted overnight.
             </span>
          </div>
          <iframe id="youtubeIFrame"
