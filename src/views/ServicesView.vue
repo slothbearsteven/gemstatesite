@@ -1,7 +1,7 @@
 <template>
     <div id="servicesContainer" class=''>
         <div class="text-center pageHeader">
-            <h1 class="pageH1">What We Do For You</h1>
+            <h1 class="pageH1">Your Track, Our Craft</h1>
             <div class="d-flex justify-content-center">
                 <div id="carouselExample" class="carousel slide pageMainImg">
                     <div class="carousel-inner">
@@ -35,23 +35,19 @@
             </div>
             <div class="mainParagraphFontSize text-wrap mt-5">
                 <p class="text-start pt-3">
-                    We offer an array of different services all surrounding the idea of making your track a true
-                    gem.
-                    Our experienced team uses quality paints and tools to ensure that each and every detail in the
-                    track is
-                    up to par with state and federation standards
+                    We specialize in transforming and maintaining running tracks with percision, experience, and care.
+                    Whether you need a brand-new installation, a fresh coat of paint, or a complete refurbishment, our
+                    small, mobile team delivers high-quality, custom work built to meet competition standards.
                 </p>
                 <p class="text-start pt-3 pb-3">
-                    Whether your track just needs some simple touch ups or a brand new layout, we will be able to
-                    get your
-                    track on-track to being the best it has ever been. We are a small, extremely mobile company with
-                    over a
-                    decade of experience in track painting and construction</p>
+                    With over a decade of hands-on experience, we’ve served schools at every education level. Elementary,
+                    middle, high school, college, and major universities. As well as professional sports teams, state and
+                    federal government agencies, and military installations. Our work has even been featured in <b>Super Bowl
+                    and Olympic commercials</b>, a testament to the quality and detail we bring to every job.
+                    No matter the size or scope, we’re here to make your track the best it’s ever been.</p>
                 <p class="text-start mainParagraphFontSize text-wrap">
-                    We commonly evaluate and provide bespoke services that may not be listed below. If your desired
-                    service is
-                    not featured below, please feel free to reach out, as we may be able to accommodate your request
-                    anyway!
+                    We also offer <b>custom solutions</b> beyond these core services. 
+                    If you don’t see what you need listed here, just reach out. We’re flexible, mobile, and always up for a challenge.
                 </p>
             </div>
         </div>
@@ -63,76 +59,96 @@
                 <div class="row">
                     <div class="serviceColumns col-md-6">
                         <h3 class="text-center textBorders ">
-                            “Scratch” Paint Job
+                            Track Installation & Full Refurbishment
                         </h3>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            Our “Bread and Butter” service
+                            From initial surveys to final paint, we handle complete track installations and overhauls with precision and care.
                         </p>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            This is for new tracks immediately after they are built
+                            Whether you’re building from the ground up or revitalizing an aging surface, we ensure every detail meets state and federation standards.
                         </p>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            This includes:
+                            <b>This includes:</b>
+                        </p>
+                        <ul class="text-start">
+                            <li>
+                                Site survey and shop drawings
+                            </li>
+                            <li>
+                                Full surface installation in any color or scheme
+                            </li>
+                            <li>
+                                Custom track painting and layout design
+                            </li>
+                        </ul>
+                        <p class=""><i>* You have more control about specific aspects like finish line placement, color schemes, etc.</i></p>
+                    </div>
+                    <br>
+                    <div class="serviceColumns col-md-6">
+                        <h3 class="text-center textBorders">
+                            Precision “Scratch” Paint Jobs (New Tracks)
+                        </h3>
+                        <p class="text-start mainParagraphFontSize text-wrap">
+
+                            This is our specialty—the first and most important paint job on a brand-new track. 
+                            We customize every mark to your exact needs, including finish line placement, control points, and color preferences. 
+                            Our work can even be certified for official use.
+                        </p>
+                        <p class="text-start mainParagraphFontSize text-wrap">
+                            <b>This includes:</b>
                         </p>
                         <ul class="text-start">
                             <li>
                                 Setting control points
                             </li>
                             <li>
-                                Custom calculations for where each mark will be placed on your track *
+                                Custom measurements and mark placement
                             </li>
                             <li>
-                                Scratch paints can also be certified for accuracy if desired
-                            </li>
-                        </ul>
-                        <p class=""><i>* You have more control about how you want specific aspects like finish line placement, color schemes, etc.</i></p>
-                    </div>
-                    <br>
-                    <div class="serviceColumns col-md-6">
-                        <h3 class="text-center textBorders">
-                            Re-paint
-                        </h3>
-                        <p class="text-start mainParagraphFontSize text-wrap">
-
-                            We will paint a fresh coat over your existing lines and event markings
-                        </p>
-                        <p class="text-start mainParagraphFontSize text-wrap">
-                            This includes:
-                        </p>
-                        <ul class="text-start">
-                            <li>
-                                Lettering and/or logos already painted on the surface
-                            </li>
-                            <li>
-                                Existing lines
+                                Optional certification for competition-level accuracy
                             </li>
                         </ul>
                     </div>
                     <br>
                     <div class="serviceColumns col-md-6">
                         <h3 class="text-center textBorders">
-                            Pressure Wash and Re-paint
+                            Re-Paint & Logo Refresh
                         </h3>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            We will Clean your entire track surface with a pressure washer and then complete a re-paint
+                            When your track needs a fresh coat of paint, we’ve got you covered. 
+                            We repaint all existing lines, event markings, and custom logos to restore your facility’s professional appearance.
                         </p>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            Doing this not only freshens your old faded paint, but clears the track of dirt stains so
-                            the surface looks just as fresh and nice
+                            <b>This includes:</b>
                         </p>
+                        <ul class="text-start">
+                            <li>
+                                Repainting existing lines and events
+                            </li>
+                            <li>
+                                Refreshing lettering and graphics
+                            </li>
+                        </ul>
                     </div>
                     <br>
                     <div class="serviceColumns col-md-6">
                         <h3 class="text-center textBorders">
-                            Repairs
+                            Clean, Repair & Re-Paint
                         </h3>
                         <p class="text-start mainParagraphFontSize text-wrap">
-                            We can do many types of small repairs that include:
+                            We offer comprehensive cleaning and repair services to extend the life and appearance of your track. 
+                            From pressure washing to patchwork, we’ll restore your surface before applying a crisp, new coat of paint.
                         </p>
                         <ul class="text-start">
-                            <li>Cutting</li>
-                            <li>Cleaning</li>
-                            <li>Replacing rubber material</li>
+                            <li>
+                                Full pressure wash to remove dirt and stains
+                            </li>
+                            <li>
+                                Minor surface repairs (cutting, cleaning, and rubber patching)
+                            </li>
+                            <li>
+                                Complete repaint for a like-new finish
+                            </li>
                         </ul>
                     </div>
                 </div>
